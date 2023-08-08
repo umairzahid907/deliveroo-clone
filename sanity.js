@@ -10,6 +10,6 @@ const client = createClient({
 
 const builder = imageUrlBuilder(client);
 
-export const forUrl = (source) => {
-  builder.image(source);
-};
+export const forUrl = (source) => builder.image(source);
+
+export default client;
